@@ -18,7 +18,7 @@
 
 <br>
 
-本マニュアルでは混同を防ぐため、<font color="Blue">Avatar2.0の内容を青色</font>、<font color="Green">Avatar3.0の内容を緑色</font>で記述し、同じ内容のものを黒文字で記述しています。
+本マニュアルでは混同を防ぐため、<font color="Blue">Avatar2.0の内容を青色</font>、<span style="color: green; ">Avatar3.0の内容を緑色</span>で記述し、同じ内容のものを黒文字で記述しています。
 
 <br>
 
@@ -29,7 +29,7 @@
 - [アップロードまでの流れ](#アップロードまでの流れ)
 - [シェイプキー](#シェイプキー)
   - [プリセット表情](#プリセット表情)
-  - [<font color="green">Avatar3.0でのシェイプキーの入れ替え</font>](#Avatar3.0でのシェイプキーの入れ替え)
+  - [<font color="green">Avatar3\.0でのシェイプキーの入れ替え</font>](#Avatar30でのシェイプキーの入れ替え)
     - [<font color="green">顔の表情の変更</font>](#顔の表情の変更)
     - [<font color="green">手の表情の変更</font>](#手の表情の変更)
   - [<font color="Green">LisSyncの干渉防止について</font>](#LisSyncの干渉防止について)
@@ -40,7 +40,7 @@
 - [同梱プレハブ](#同梱プレハブ)
 - [VRM](#VRM)
 - [同梱3Dオブジェクト](#同梱3Dオブジェクト)
-  - [Latte\.fbx](#Lattefbx)
+  - [LizBell\.fbx](#LizBellfbx)
   - [LizBellSimple\.fbx](#LizBellSimplefbx)
   - [Stick\.fbx](#Stickfbx)
     - [Humanoid化](#Humanoid化)
