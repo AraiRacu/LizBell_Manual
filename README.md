@@ -18,7 +18,7 @@
 
 <br>
 
-本マニュアルでは混同を防ぐため、<font color="Blue">Avatar2.0の内容を青色</font>、<span style="color: green; ">Avatar3.0の内容を緑色</span>で記述し、同じ内容のものを黒文字で記述しています。
+本マニュアルでは混同を防ぐため、Avatar2.0の内容を[A2]、Avatar3.0の内容を[A3]で記述します。
 
 <br>
 
@@ -29,11 +29,11 @@
 - [アップロードまでの流れ](#アップロードまでの流れ)
 - [シェイプキー](#シェイプキー)
   - [プリセット表情](#プリセット表情)
-  - [<font color="green">Avatar3\.0でのシェイプキーの入れ替え</font>](#Avatar30でのシェイプキーの入れ替え)
-    - [<font color="green">顔の表情の変更</font>](#顔の表情の変更)
-    - [<font color="green">手の表情の変更</font>](#手の表情の変更)
-  - [<font color="Green">LisSyncの干渉防止について</font>](#LisSyncの干渉防止について)
-- [<font color="green">ExMenuについて</font>](#ExMenuについて)
+  - [Avatar3\.0でのシェイプキーの入れ替え[A3]](#Avatar30でのシェイプキーの入れ替え[A3])
+    - [顔の表情の変更[A3]](#顔の表情の変更[A3])
+    - [手の表情の変更[A3]](#手の表情の変更[A3])
+  - [LisSyncの干渉防止について[A3]](#LisSyncの干渉防止について[A3])
+- [ExMenuについて[A3]](#ExMenuについて[A3])
 - [Constraintについて](#Constraintについて)
   - [改変の際にネジレ防止機構を利用する方法](#改変の際にネジレ防止機構を利用する方法)
   - [杖の接続について](#杖の接続について)
@@ -110,7 +110,7 @@ LizBell_v1_00.zip/
 - VRChatのアカウント取得
 - Unityのアカウント取得
 - Unity2018.4.20fのインストール
-- 最新版の<font color="Blue">VRCSDK2</font>または<font color="Green">VRCSDK3-Avatars</font>の入手
+- 最新版のVRCSDK2[A2]またはVRCSDK3-Avatars[A3]の入手
 - 本製品のダウンロードおよび解凍
 - VRChatトラストシステムによるアバターアップロードの解禁
 
@@ -136,7 +136,7 @@ LizBell_v1_00.zip/
 
 #### 2. Unityにパッケージをインポートします
 
-1. <font color="Blue">**VRCSDK2** </font>または<font color="Green">**VRCSDK3** </font>をインポートします。エクスプローラーからUnityの**Project** タブの**Asset** フォルダにD&Dします。その後、Import画面が開くので、**Import** 押してしばらくするとインポートされます。
+1. **VRCSDK2**[A2]または**VRCSDK3**[A3]をインポートします。エクスプローラーからUnityの**Project** タブの**Asset** フォルダにD&Dします。その後、Import画面が開くので、**Import** 押してしばらくするとインポートされます。
 
    <img src="Image/Intro/C.png" width="800">
 
@@ -144,7 +144,7 @@ LizBell_v1_00.zip/
 
    <img src="Image/Intro/D.png" width="300">
 
-3. 本製品の<font color="Blue">**LizBell_Avatar2.0.unitypackage** </font> または<font color="Green">**LizBell_Avatar3.0.unitypackage** </font> をインポートします。操作は1.のVRCSDKをインポートとしたときと同様です。ユニティちゃんトゥーンシェーダー2.0.7.5は本パッケージに同梱しているので追加でインポートする必要はありません。
+3. 本製品の**LizBell_Avatar2.0.unitypackage**[A2]または**LizBell_Avatar3.0.unitypackage**[A3]をインポートします。操作は1.のVRCSDKをインポートとしたときと同様です。ユニティちゃんトゥーンシェーダー2.0.7.5は本パッケージに同梱しているので追加でインポートする必要はありません。
 
 #### 3.VRCSDKにログインします
 
@@ -204,13 +204,13 @@ LizBell_v1_00.zip/
 
 <br>
 
-## <font color="green">Avatar3.0でのシェイプキーの入れ替え</font>
+## Avatar3.0でのシェイプキーの入れ替え[A3]
 
 Avatar3.0で表情を変更する手順を説明します。
 
 <br>
 
-### <font color="green">顔の表情の変更</font>
+### 顔の表情の変更[A3]
 
 この章では、左右の手に同じ表情を割り当てることを行います。
 
@@ -240,7 +240,7 @@ Avatar3.0で表情を変更する手順を説明します。
 
 <br>
 
-### <font color="green">手の表情の変更</font>
+### 手の表情の変更[A3]
 
 主な操作は顔の表情を変更する方法と同様です。
 
@@ -270,7 +270,7 @@ Avatar3.0で表情を変更する手順を説明します。
 
 <br>
 
-## <font color="Green">LisSyncの干渉防止について</font>
+## LisSyncの干渉防止について[A3]
 
 Avatar3.0の機能で、ハンドジェスチャーで表情を変更しているときにリップシンクを行わない設定ができます。
 
@@ -288,7 +288,7 @@ Avatar3.0の機能で、ハンドジェスチャーで表情を変更してい�
 
 <br>
 
-# <font color="Green">ExMenuについて</font>
+# ExMenuについて[A3]
 
 本製品ではAvatar3.0の機能を利用して、アバターの帽子、マント、外套、杖の表示非表示をすることができます。
 
@@ -346,31 +346,27 @@ Avatar3.0の機能で、ハンドジェスチャーで表情を変更してい�
 
 本製品には以下のプレハブを用意しています。それ以外については改変をお願いします。
 
-- **<font color="green">(Avatar3.0)LizBell</font>** (推奨)
-
-  - (Constraint)補助ボーンあり
-
-  - (ExMenu)衣装着脱機能あり
+- **(Avatar3.0)LizBell** (推奨)
+- (Constraint)補助ボーンあり
+  
+- (ExMenu)衣装着脱機能あり
   - (LipSync)表情のリップシンク干渉の防止機能
-
-- **<font color="green">(Avatar3.0)LizBell_Simple</font>** 
-
-  - (Constraint)補助ボーンなし
-
-  - (ExMenu)衣装着脱機能あり
+  
+- **(Avatar3.0)LizBell_Simple** 
+- (Constraint)補助ボーンなし
+  
+- (ExMenu)衣装着脱機能あり
   - (LipSync)表情のリップシンク干渉の防止機能
-
-- **<font color="Blue">(Avatar2.0)LizBell</font>**
-
-  - (Constraint)補助ボーンあり
-
-  - (ExMenu)衣装着脱機能なし
-
-- **<font color="Blue">(Avatar2.0)LizBell_Simple</font>** 
-
-  - (Constraint)補助ボーンなし
-
-  - (ExMenu)衣装着脱機能なし
+  
+- **(Avatar2.0)LizBell**
+- (Constraint)補助ボーンあり
+  
+- (ExMenu)衣装着脱機能なし
+  
+- **(Avatar2.0)LizBell_Simple** 
+- (Constraint)補助ボーンなし
+  
+- (ExMenu)衣装着脱機能なし
 
 <br>
 
